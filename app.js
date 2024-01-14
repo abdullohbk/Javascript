@@ -251,3 +251,255 @@
 // }else{
 //     document.body.innerHTML = `Bunday noutbuk yo'q`
 // }
+
+
+
+//  3 - DARS
+
+//  1- masala
+
+// let a = +prompt("Sonni kiriting");
+// if(a > 0 ){
+//     document.body.innerHTML =  ++a;
+// }else{
+//     document.body.innerHTML = a
+// }
+
+
+
+// 2- masala
+
+// let a = +prompt("Sonni kiriting:");
+// if(a > 0 ){
+//     document.body.innerHTML = ++a;
+// }else if(a < 0){
+//     document.body.innerHTML = a - 2;
+// }else{
+//     document.body.innerHTML = 10;
+// }
+
+// -------------------------------------------
+// 3 - masala
+
+// let a = +prompt(" a Sonini kiriting:");
+// let b = +prompt(" b Sonini kiriting:");
+// let c = +prompt(" c Sonini kiriting:");
+// let count = 0;
+// if(a =  Number.isInteger){
+//    ++count;
+//    if(b = Number.isInteger){
+//     ++count;
+//     if(c = Number.isInteger){
+//         ++count;
+//     }
+//     else{
+//        --count; 
+//     }
+//    }else{
+//     --count;
+//    }
+// }else{
+//     --count;
+// }
+// document.body.innerHTML = count;
+
+// -------------------------------------------------
+
+
+//  4- masala  
+
+// let a = prompt("Sonni kiriting:");
+// let b = prompt("Sonni kiriting:");
+// document.body.innerHTML = Math.max(a , b);
+
+
+//  5 - masala
+
+// let a = prompt("Sonni kiriting:");
+// let b = prompt("Sonni kiriting:");
+// document.body.innerHTML = Math.min(a, b);
+
+//  6 - masala
+
+// let a = prompt("Sonni kiritng:");
+// let b = prompt("Sonni kiritng:");
+// document.body.innerHTML = Math.max(a, b);
+// document.body.innerHTML = Math.min(a, b);
+
+// ------------------------------------------
+// 7 - masala
+
+// let a = prompt("a Sonini kiriting:");
+// let b = prompt("b Sonini kiriting:");
+
+// a = 1;
+// b = 3;
+// document.body.innerHTML = a +  b;
+// document.body.innerHTML = b;
+// ------------------------------------------
+
+//  8 - masala
+
+// let a = +prompt("a Sonini kiriting:");
+// let b = +prompt("b Sonini kiriting:");
+// if(a == b){
+//     a=0;
+//     b=0;
+//     document.body.innerHTML = a;
+//     document.body.innerHTML = b;
+// }else{
+//     a += b;
+//     b = a
+//     document.body.innerHTML = a;
+//     document.body.innerHTML = b;
+// }
+
+//  9 - masala
+
+// let a = prompt("a Sonini kiriting:");
+// let b = prompt("b Sonini kiriting:");
+// if(a == b){
+//     a = 0
+//     b = 0
+//     document.body.innerHTML = a;
+// }else{
+//     a = Math.max(a, b);
+//     b = Math.max(a, b);
+//     document.body.innerHTML = a;
+//     document.body.innerHTML = b;
+// }
+
+//  10 - masala
+
+// let a = prompt("a Sonini kiriting:");
+// let b = prompt("b Sonini kiriting:");
+// let c = prompt("c Sonini kiriting:");
+
+// document.body.innerHTML = Math.min(a, b, c);
+
+// CASE 
+
+// 1 - masala
+
+// let k = +prompt("Bahoni kiriting:");
+// let baho;
+// switch (k) {
+//   case 1:
+//     baho = "Yomon";
+//     break;
+//   case 2:
+//     baho = "Qoniqarsiz";
+//     break;
+//   case 3:
+//     baho = "Qoniqarli";
+//     break;
+//   case 4:
+//     baho = "Yaxshi";
+//     break;
+//   case 5:
+//     baho = "A'lo";
+//     break;
+//     default:
+//         console.log("xato");
+// }
+// console.log(baho);
+
+
+// 2 - masala
+
+// let n = +prompt("Oy raqamini kiriting:");
+// let oy;
+// switch (n) {
+//   case 1:
+//     oy = "Yanvar";
+//     break;
+//   case 2:
+//     oy = "Fevral";
+//     break;
+//   case 3:
+//     oy = "Mart";
+//     break;
+//   case 4:
+//     oy = "Aprel";
+//     break;
+//   case 5:
+//     oy = "May";
+//     break;
+//   case 6:
+//     oy = "Iyun";
+//     break;
+//   case 7:
+//     oy = "Iyul";
+//     break;
+//   case 8:
+//     oy = "Avgust";
+//     break;
+//   case 9:
+//     oy = "Sentabr";
+//     break;
+//   case 10:
+//     oy = "Oktabr";
+//     break;
+//   case 11:
+//     oy = "Noyabr";
+//     break;
+//   case 12:
+//     oy = "Dekabr";
+//     break;
+//     default:
+//         console.log("Noto'g'ri oy raqami");
+//         break;
+// }
+
+// console.log(oy);
+
+
+// 3 - masala
+
+
+
+// let n = +prompt("Oy raqamini kiriting:");
+// let oy;
+// switch (n) {
+//   case 1:
+//     oy = "Yanvar 31 kun";
+//     break;
+//   case 2:
+//     oy = "Fevral 29 kun";
+//     break;
+//   case 3:
+//     oy = "Mart 31 kun";
+//     break;
+//   case 4:
+//     oy = "Aprel 30 kun";
+//     break;
+//   case 5:
+//     oy = "May 31 kun";
+//     break;
+//   case 6:
+//     oy = "Iyun 30 kun";
+//     break;
+//   case 7:
+//     oy = "Iyul 31 kun";
+//     break;
+//   case 8:
+//     oy = "Avgust 31 kun";
+//     break;
+//   case 9:
+//     oy = "Sentabr 30 kun";
+//     break;
+//   case 10:
+//     oy = "Oktabr 31 kun";
+//     break;
+//   case 11:
+//     oy = "Noyabr 30 kun";
+//     break;
+//   case 12:
+//     oy = "Dekabr 31 kun";
+//     break;
+//     default:
+//         console.log("Noto'g'ri oy raqami");
+//         break;
+// }
+
+// console.log(oy);
