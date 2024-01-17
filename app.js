@@ -888,13 +888,13 @@
 
 // 14- masala
 
-function inverseNumber(n) {
-    let nStr =String(n);
-    let reverestStr = nStr.split('').reverse('').join('');
-    return Number(reverestStr);
-}
+// function inverseNumber(n) {
+//     let nStr =String(n);
+//     let reverestStr = nStr.split('').reverse('').join('');
+//     return Number(reverestStr);
+// }
 
-console.log(inverseNumber(1234));
+// console.log(inverseNumber(1234));
 
 
 // 16 - masala
@@ -1039,3 +1039,31 @@ console.log(inverseNumber(1234));
 // }
 
 // getDvinder(12)
+
+
+// let a = 50;
+// let b = 60;
+// for(let i = a; i <= b; i++){
+//     console.log(i);
+// }
+
+
+// let k = 20;
+// let n = 30;
+// let count = 0
+// for( k; count < n; count++){
+//     console.log(k)
+// }
+
+
+// function decTime(H, M, S){
+//     let allSec = H*3600 + M*60 + S - 1;
+//     let hour = Math.floor(allSec/3600)
+//     let min = Math.floor(allSec%3600/60)
+//     let sec = Math.floor(allSec%60)
+//     console.log(hour, min, sec);
+// }
+
+
+// let b = decTime(7, 0, 0)
+// console.log(b)
