@@ -1067,3 +1067,130 @@
 
 // let b = decTime(7, 0, 0)
 // console.log(b)
+
+
+// function YigindiCalc(n){
+//     let yigindi = 0;
+//     for(let i = 1; i <= n; i++){
+//         yigindi += 1/i;
+//     }
+//     return yigindi
+// }
+
+// console.log(YigindiCalc(3));
+
+
+// function teskari(n){
+//     for(i = n; i > 0; i--){
+//         console.log(i) 
+//     }
+// }
+
+// let d = teskari(32)
+
+// 8- DARS ///////////////////////////////////
+
+// 1- masala
+
+// function calc(n){
+//     let pow = n ** 3;
+//     console.log(pow);
+// }
+
+// let d = calc(5);
+
+// 2- masala
+
+// function plus(a, b){
+//     let yigindi = a + b;
+//     console.log(yigindi)
+// }
+// let d = plus(3, 8)
+
+
+// 3-masala
+
+// function plus(a, b) {
+//   let yigindi = a - b;
+//   console.log(yigindi);
+// }
+// let d = plus(3, 8);
+
+// 4-masala
+
+// function sonDaraja(n) {
+//     console.log(n**2);
+//     console.log(n**3);
+//     console.log(n**4);  
+// }
+
+// sonDaraja(2);
+
+// 5- masala
+
+// function calc(n){
+//     for(let i = 1; i <= n; i++){
+//         if(i % 2 == 1){
+//             console.log(i)
+//         }
+//     }
+// }
+
+// let b = calc(60)
+
+
+// 6- masala
+// function calc(n) {
+//   for (let i = 1; i <= n; i++) {
+//     if (i % 2 == 0) {
+//       console.log(i);
+//     }
+//   }
+// }
+
+// let b = calc(50)
+
+//  7- masala
+
+// function inc(n){
+//     console.log (`${++n} : ${n-2}`)
+// }
+
+// let b = inc(6)
+
+// 8- masala
+
+// function calc(n){
+//     for(let i = 1; i <= n/2; i++){
+//         if(n % i == 0){
+//             console.log(i)
+//         }
+//     }
+// }
+
+// let d = calc(30)
+
+
+
+// 9- masala
+
+
+// function amalar(a , b , c) {
+//     switch (c){
+//         case "+":
+//             return a + b ;
+//         case "-":
+//             return a - b ;
+//         case "*":
+//             return a * b ;
+//         case "/":
+//             return a / b ;  
+//         case "%":
+//             return a % b ;
+//         default:
+//             return "Invalit operator"
+//     }
+    
+// }
+
+// console.log(amalar(7, 5, "*"));
