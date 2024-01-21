@@ -400,3 +400,99 @@ funcNam(20,12,4); // natija ==> 23
 
 
 ```
+
+ 9- DARS ////////////////////////////////////////////////////////
+
+ # lesson- 9 Array va String
+
+
+### 1 - Array
+
+Array - bir vaqitning o'zida bir nechta qiymatlarni o'zida saqlashi mumkun bo'lgan obect. uni ikki hil ko'rinishda yaratishlik mumkun : 1- ko'rinishii va eng ko'p qo'lanadiga usul bu ( [ ] ) figurni qavuslar ichida yozishlik , 2- uslibi esa (new) kalit so'zidan foydalanib.
+
+
+
+M:
+
+// 1- misol
+
+let arrayName = ['js' ,'java' , 'go'];
+
+// 2- misol
+
+let arrayName = new Array('js' ,'java' , 'go');
+
+
+### Array'dan element olish
+
+Array - elementlarini uning indexslaridan foydalanib oloshligimiz mumkun . Array elementlarining raqamlari ( 0 ) - dan boshlanadi.
+
+M:
+
+let arrayName = ['js' ,'java' , 'go'];
+console.log(arrayName[0]); // natija ==> js
+console.log(arrayName[2]); // natija ==> go
+
+### Array'ga element qo'shish
+
+Array'ga element qo'shish uchun " push() " va " ushift() " metodlaridan foydalanishligimiz mumkun . Bunda " push() " - metodi bizga massivnig ohiridan element qo'shin=b bersa " ushift() " meto'di esa aksincha boshidan element qo'shinb beradi , yaqshiroq tushunishlik uchun misol koramiz.
+
+M:
+
+// push() metodiga misol
+
+let name =  ['js' ,'java'];
+name.push('go');
+console.log(name); //natija =>  ['js' ,'java' , 'go']
+
+//unshift metodiga misol
+
+let name =  ['java' , 'go'];
+name.unshift('js');
+console.log(name); //natija =>  ['js' ,'java' , 'go']
+
+
+## 1. String metodlari
+
+- String length: Matn uzunligini qaytaradi.
+
+M:
+
+var str = "Hello";
+console.log(str.length); // 5
+
+
+- String charAt(): Berilgan indeksdagi belgini qaytaradi.
+
+M:
+
+var str = "Hello";
+console.log(str.charAt(1)); // "e"
+
+- String charCodeAt(): Berilgan indeksdagi belgining Unicode qiymatini qaytaradi.
+
+M:
+
+var str = "Hello";
+console.log(str.charCodeAt(1)); // 101
+
+- String [ ]: Matndagi belgi indeks orqali qaytariladi.
+
+M:
+
+var str = "Hello";
+console.log(str[1]); // "e"
+
+- String slice(): Berilgan indekslar orasidagi qismni kesib olish.
+
+M:
+
+var str = "Hello, World!";
+console.log(str.slice(7, 12)); // "World"
+
+- String substring(): Berilgan indekslar orasidagi qismni kesib olish (slice bilan bir xil, lekin manfiy indekslar bilan ishlaydi).
+
+M:
+
+var str = "Hello, World!";
+console.log(str.substring(7, 12)); // "World"
