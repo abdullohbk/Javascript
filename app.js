@@ -1375,6 +1375,270 @@
 
 
 
+// const noutbook = {
+//     brand : "HP",
+//     szie : 15.6,
+//     OZU : "8 gb",
+//     AZU : "512 gb",
+//     color : "dark grey",
+//     character : ["core:I5", "generation:12"],
+//     power : "4 hours",
+//     memory: function () {
+//         console.log("OZU: 8GB, AZU: 512GB,");
+//     }
+
+// }
+
+// console.log(noutbook);
+// noutbook.memory();
+
+// const calc = {
+//     add : function (a, b){
+//         return a + b;
+//     },
+//     minus : function (a, b){
+//         return a - b;
+//     },
+
+//     increase : function (a, b){
+//         return a * b;
+//     },
+
+//     division : function (a, b){
+//         return a / b;
+//     }
+
+// }
+
+// console.log(calc);
+// console.log(calc.add(5,5));
+
+// const car = {
+//   name: "Cobalt",
+//   brand: "Chevrolet",
+//   year: 20115,
+//   power: 130,
+//   volume: 1.5,
+//   space: 5,
+//   speed: "210 km/h",
+//   fullname: function () {
+//     console.log(this.brand + " " + this.name + " ");
+//   },
+// };
+
+// car.fullname();
+
+
+// let product = [
+//     {
+//         name : "Abdulaziz",
+//         age : 33,
+//     },
+//     {
+//         name : "Erkin",
+//         age : 22,
+//     },
+//     {
+//         name : "Temur",
+//         age : 34,
+//     },
+//     {
+//         name : "Sardor",
+//         age : 20,
+//     }
+// ]
+
+
+// let summa = 0;
+// for(i = 0; i< product.length; i++){
+//  summa += product[i].age;
+// }
+// summa = summa / product.length
+
+// console.log(summa)
+
+// 1- misol
+
+// function nabbers(n) {
+//     let arr = [];
+//     for(let i = 0; i <= n; i++){
+//         arr.push(i);
+//     }
+//     return arr ;
+// } 
+
+// let naber = nabbers(10);
+// console.log(naber);
+
+//------------------------------------------------------
+
+// 2 - misol
+
+// function nDaraja (n){
+//     let arr = [];
+//     for(let i = 0; i<= n; i++){
+//         arr.push( 2 ** i);
+//     }
+//     return arr;
+// }
+
+// let daraja = nDaraja(10);
+// console.log(daraja);
+
+// -----------------------------------------------
+
+// 3 - misol
+
+// function qiymat (n){
+//     let arr = [];
+//     let sum = 0; 
+//     for(let i = 0; i<= n; i++){
+//         arr.push(i);
+//         sum+=i;
+//     }
+//     return `[${arr}] massivning qiymatlarining yigindisi ${sum} ga  ten`;
+// }
+
+// let resalt = qiymat(15);
+// console.log(resalt);
+
+// --------------------------------------------------------
+
+// 4 -misol
+
+// function togYigindi (n){
+//     let arr = [];
+//     let toq = 0;
+//     let juft = 0
+//     for(let i = 0; i< n ; i++){
+//         arr.push(i*10);
+//         if(i % 2 != 0){
+//             toq += arr[i];
+//         }else
+//             juft-=arr[i];
+//     }
+//     console.log(arr);
+//     console.log(`tog indexstegi qiymatlarnig yigindisi ${toq}`);
+//     console.log(`juft indexstegi qiymatlarnig ayirmasi ${juft}`);
+// }
+
+// togYigindi(10);
+
+//---------------------------------------------------------------------
+
+// 5- misol
+
+// function yigindi (n){
+//     let arr = [];
+//     let sum = 0; 
+//     for (let i = 0; i < n ; i++ ){
+//         arr[i]= +prompt(`${i} - indexs uchun ucun son kiriting`);
+//         sum += arr[i];
+//     }
+//     console.log(arr);
+//     console.log(sum);
+// }
+// yigindi(10);
+
+// 6 - miosol
+
+// function namber (n){
+//     let arr = [];
+//     for (let i = n; i >= 0 ; i--){
+//         arr.push(i);
+//     }
+//     return arr;
+// }
+
+// let rsalt = namber(10);
+// console.log(rsalt);
+
+// ---------------------------------------------------
+
+// 7 - misol
+// let a = [];
+// let b = [];
+// let c = [];
+
+// a["ism"] = "Kamol";
+// a["yosh"] = 22;
+// b["ism"] = "Abror";
+// b["yosh"] = 17;
+// c["ism"] = "Sobir";
+// c["yosh"] = 25;
+
+// let farqAb = Math.abs(a["yosh"]-b["yosh"]);
+// let farqAc = Math.abs(a["yosh"]-c["yosh"]);
+// let farqBc = Math.abs(b["yosh"]-c["yosh"]);
+
+// console.log(${a["ism"]} va ${b["ism"]}ning yosh farqi ${farqAb} yosh);
+// console.log(${a["ism"]} va ${c["ism"]}ning yosh farqi ${farqAc} yosh);
+// console.log(${b["ism"]} va ${c["ism"]}ning yosh farqi ${farqBc} yosh);
 
 
 
+
+
+//-----------------------------------------------------
+
+// 8- misol 
+
+// function naber(n) {
+//     let arr =[];
+//     let sum = 0;
+//     for(let i = 0; i <= n; i++){
+//         arr.push(i);
+//     }
+//     let k = arr[1];
+//     let l = arr.length-2;
+//     for (k ; k <= l; k++ ){
+//         sum += arr[k]
+//     }
+//     console.log(arr);
+//     console.log(sum);
+    
+// }
+
+// naber(6);
+
+//---------------------------------------------
+
+// 9 - misol
+
+// function naber(n) {
+//     let arr = [];
+//     let j = 0;
+//     for(let i = 0; i <= n ; i++){
+//         arr.push("M" + i);
+//         if(i % 2 == 0){
+//             j = i ;
+//         }
+//     }
+//     console.log(arr);
+//     console.log(`[${arr}] array ning juft indekislari ichida en kattasi ${j}-indeks`);
+    
+// }
+// naber(20);
+
+//-------------------------------------------------------------------------------
+
+// 10 - misol
+
+// function naber(n) {
+//     let arr = [];
+//     let j = 0;
+//     for(let i = 0; i <= n ; i++){
+//         arr.push("M" + i);
+//         if(i == arr[0]){
+//             j = i ;
+//         }
+//     }
+//     console.log(arr);
+//     console.log(`[${arr}] array ning juft indekislari ichida en kichigi ${j}-indeks`);
+    
+// }
+// naber(5);
+
+//----------------------------------------------------------------------------------
+
+// 11 - misol
