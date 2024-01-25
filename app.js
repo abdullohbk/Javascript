@@ -1699,3 +1699,16 @@
 // const obj2 =[];
 
 // console.log(obj2);
+
+let x = 12300;
+
+let a = (x.toString().split("").reverse())
+console.log(a)
+for(let i = 0; i < a.length; i++){
+    if(a[i]==0){
+        a.push
+    }
+
+    console.log(a);
+}
+
