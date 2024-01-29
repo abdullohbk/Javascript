@@ -252,8 +252,6 @@
 //     document.body.innerHTML = `Bunday noutbuk yo'q`
 // }
 
-
-
 //  3 - DARS
 
 //  1- masala
@@ -264,8 +262,6 @@
 // }else{
 //     document.body.innerHTML = a
 // }
-
-
 
 // 2- masala
 
@@ -293,7 +289,7 @@
 //         ++count;
 //     }
 //     else{
-//        --count; 
+//        --count;
 //     }
 //    }else{
 //     --count;
@@ -305,13 +301,11 @@
 
 // -------------------------------------------------
 
-
-//  4- masala  
+//  4- masala
 
 // let a = prompt("Sonni kiriting:");
 // let b = prompt("Sonni kiriting:");
 // document.body.innerHTML = Math.max(a , b);
-
 
 //  5 - masala
 
@@ -377,7 +371,7 @@
 
 // document.body.innerHTML = Math.min(a, b, c);
 
-// CASE 
+// CASE
 
 // 1 - masala
 
@@ -403,7 +397,6 @@
 //         console.log("xato");
 // }
 // console.log(baho);
-
 
 // 2 - masala
 
@@ -453,10 +446,7 @@
 
 // console.log(oy);
 
-
 // 3 - masala
-
-
 
 // let n = +prompt("Oy raqamini kiriting:");
 // let oy;
@@ -504,8 +494,6 @@
 
 // console.log(oy);
 
-
-
 // let Narx = 10000;
 
 // for(let i = 0.1; i <= 1; i +=0.1 ){
@@ -520,12 +508,9 @@
 //     }
 // }
 
-
 // 4-DARS
 
-
 // 1- masala
-
 
 // let a = 0;
 // let b = 11;
@@ -536,7 +521,6 @@
 // }
 
 // console.log(count);
-
 
 // 2- masala
 
@@ -549,7 +533,6 @@
 // }
 
 // console.log(count);
-
 
 // 3- masala
 
@@ -581,7 +564,7 @@
 // let b = 10;
 // let count = a ;
 // for(let  i = a; i <= b; i++){
-//     count = count * i; 
+//     count = count * i;
 // }
 
 // console.log(count);
@@ -606,20 +589,16 @@
 // }
 // console.log(n);
 
-
 // let  n = 10;
 // let som = 0 ;
 
 // function sum(a){
 //     for(let i = 1; i <= n; i++){
 //         som = som + i;
-        
+
 //     }
 //     return som;
 // }
-
-
-
 
 // let c = sum(n);
 // console.log(c)
@@ -634,10 +613,8 @@
 //     return count
 // }
 
-
 // let d = calc(k)
 // console.log(d)
-
 
 // 5-DARS   ///////////////////////////////
 
@@ -645,13 +622,12 @@
 // let son = 0;
 // function sum(a){
 //     for(let i = 1 ; i <= a ; i++){
-//         son += i;  
+//         son += i;
 //     }
 //     return son
 // }
 // let b = sum(n)
 // console.log(b);
-
 
 // function yigindi(k){
 //     let son = 0;
@@ -670,20 +646,19 @@
 //     case 6:
 //         console.log("qora");
 //         break;
-//     case 2:   
+//     case 2:
 //     case 7:
 //         console.log("qizil");
-//         break; 
-//     case 3: 
+//         break;
+//     case 3:
 //     case 8:
 //         console.log("od");
 //         break;
 //     default:
 //         console.log("hato rang");
 //         break
-    
-// }
 
+// }
 
 // let n = 18;
 
@@ -693,9 +668,6 @@
 //     }
 // }
 
-
-
-
 // 1 - masala
 
 // function power(a,n){
@@ -704,8 +676,6 @@
 // }
 
 // console.log(power(3,5));
-
-
 
 //  2- masala
 
@@ -729,7 +699,7 @@
 //     }else {
 //         return 0
 //     }
-    
+
 // }
 // let x = sign(0);
 // console.log(x);
@@ -766,7 +736,7 @@
 //     if(a>b){
 //         return 0
 //     }else{
-//         let s = 0; 
+//         let s = 0;
 //         for (let i = a; i <= b; i++){
 //             s += i;
 //         }
@@ -798,7 +768,7 @@
 //             x = a / b;
 //             return x
 //             break;
-        
+
 //     }
 // }
 // let x = cale(13,7,"*");
@@ -812,7 +782,7 @@
 //     }else{
 //         return false
 //     }
-    
+
 // }
 
 // let x = isEven(16);
@@ -832,7 +802,7 @@
 //     }else if(c>b && b>a){
 //         console.log(a,b,c);
 //     }
-    
+
 // }
 // sortABC(13 ,45,52)
 
@@ -896,7 +866,6 @@
 
 // console.log(inverseNumber(1234));
 
-
 // 16 - masala
 
 // function foctarial(n) {
@@ -911,7 +880,7 @@
 //     }else{
 //         return 0
 //     }
-    
+
 // }
 
 // let x= foctarial(3);
@@ -966,7 +935,7 @@
 //         return true
 //     }else{
 //         return false
-//     }  
+//     }
 // }
 
 // let y = isLeapYear(2024);
@@ -983,20 +952,20 @@
 //             case 7 :
 //             case 8 :
 //             case 10 :
-//             case 12 :          
+//             case 12 :
 //                 console.log(`${y} yilning ${m} - oyda 31 kun bor`);
 //                 break;
 //             case 2 :
 //                console.log(`${y} yilning ${m} - oyda 29 kun bor`);
-//                break; 
+//                break;
 //             case 4 :
 //             case 6 :
 //             case 9 :
-//             case 11 :           
+//             case 11 :
 //                 console.log(`${y} yilning ${m} - oyda 30 kun bor`);
-//                 break; 
+//                 break;
 //         }
-        
+
 //     }else{
 //         switch (m) {
 //             case 1:
@@ -1005,25 +974,24 @@
 //             case 7 :
 //             case 8 :
 //             case 10 :
-//             case 12 :          
+//             case 12 :
 //                 console.log(`${y} yilning ${m} - oyda 31 kun bor`);
 //                 break;
 //             case 2 :
 //                console.log(`${y} yilning ${m} - oyda 28 kun bor`);
-//                break; 
+//                break;
 //             case 4 :
 //             case 6 :
 //             case 9 :
-//             case 11 :           
+//             case 11 :
 //                 console.log(`${y} yilning ${m} - oyda 30 kun bor`);
-//                 break; 
+//                 break;
 //         }
-//     }  
+//     }
 // }
 // monthDays(2,2024)
 
 // 25 - masala
-
 
 // function getDvinder(n) {
 
@@ -1040,13 +1008,11 @@
 
 // getDvinder(12)
 
-
 // let a = 50;
 // let b = 60;
 // for(let i = a; i <= b; i++){
 //     console.log(i);
 // }
-
 
 // let k = 20;
 // let n = 30;
@@ -1054,7 +1020,6 @@
 // for( k; count < n; count++){
 //     console.log(k)
 // }
-
 
 // function decTime(H, M, S){
 //     let allSec = H*3600 + M*60 + S - 1;
@@ -1064,10 +1029,8 @@
 //     console.log(hour, min, sec);
 // }
 
-
 // let b = decTime(7, 0, 0)
 // console.log(b)
-
 
 // function YigindiCalc(n){
 //     let yigindi = 0;
@@ -1079,10 +1042,9 @@
 
 // console.log(YigindiCalc(3));
 
-
 // function teskari(n){
 //     for(i = n; i > 0; i--){
-//         console.log(i) 
+//         console.log(i)
 //     }
 // }
 
@@ -1107,7 +1069,6 @@
 // }
 // let d = plus(3, 8)
 
-
 // 3-masala
 
 // function plus(a, b) {
@@ -1121,7 +1082,7 @@
 // function sonDaraja(n) {
 //     console.log(n**2);
 //     console.log(n**3);
-//     console.log(n**4);  
+//     console.log(n**4);
 // }
 
 // sonDaraja(2);
@@ -1137,7 +1098,6 @@
 // }
 
 // let b = calc(60)
-
 
 // 6- masala
 // function calc(n) {
@@ -1170,10 +1130,7 @@
 
 // let d = calc(30)
 
-
-
 // 9- masala
-
 
 // function amalar(a , b , c) {
 //     switch (c){
@@ -1184,13 +1141,13 @@
 //         case "*":
 //             return a * b ;
 //         case "/":
-//             return a / b ;  
+//             return a / b ;
 //         case "%":
 //             return a % b ;
 //         default:
 //             return "Invalit operator"
 //     }
-    
+
 // }
 
 // console.log(amalar(7, 5, "*"));
@@ -1201,7 +1158,7 @@
 //         if(i % 3 == 0 && i % 5 == 0){
 //              arr.push(i);
 //         }
-       
+
 //     }
 //     return arr
 // }
@@ -1234,7 +1191,6 @@
 // let result = arrayNumber(6)
 // console.log(result)
 
-
 // 10 - DARS /////////////////////////////////////////////////////////
 
 // 4 - masala
@@ -1259,7 +1215,6 @@
 
 // let result = Summa(6)
 
-
 // 5 - masala
 
 // function addNumbers(n){
@@ -1274,9 +1229,7 @@
 // let result = addNumbers(5)
 // console.log(result)
 
-
 //  6- masala
-
 
 // function addNumbers(n) {
 //   let arr = [];
@@ -1290,28 +1243,25 @@
 // let result = addNumbers(5);
 // console.log(result);
 
-
-
 //  7 - masala
 
-    // let a = []
-    // let b = []
-    // let c = []
-    // a["ismi"] = "Abdulloh";
-    // a["yoshi"] = 20;
-    // b["ismi"] = "Elbek";
-    // b["yoshi"] = 20;
+// let a = []
+// let b = []
+// let c = []
+// a["ismi"] = "Abdulloh";
+// a["yoshi"] = 20;
+// b["ismi"] = "Elbek";
+// b["yoshi"] = 20;
 
-    // console.log(
-    //   `${a["ismi"]} ni ${b["ismi"]} dan yosh farqi ${
-    //     Math.abs(a["yoshi"]) - (b["yoshi"])
-    //   }`
-    // );
+// console.log(
+//   `${a["ismi"]} ni ${b["ismi"]} dan yosh farqi ${
+//     Math.abs(a["yoshi"]) - (b["yoshi"])
+//   }`
+// );
 
-
-    //  12 - masala
+//  12 - masala
 // function devision(n){
-    
+
 //     let arr = [];
 //     let sum = 0;
 //     for (let i = 0; i <= n; i++) {
@@ -1323,7 +1273,6 @@
 
 // let result = devision(7)
 // console.log(result)
-
 
 //  13 - masala
 
@@ -1352,9 +1301,9 @@
 //         }
 //     }
 //   }
-  
+
 //   return arr
-   
+
 // }
 
 // // let result = Number(9);
@@ -1372,8 +1321,6 @@
 
 // let result = Number(9);
 // console.log(result);
-
-
 
 // const noutbook = {
 //     brand : "HP",
@@ -1428,7 +1375,6 @@
 
 // car.fullname();
 
-
 // let product = [
 //     {
 //         name : "Abdulaziz",
@@ -1448,7 +1394,6 @@
 //     }
 // ]
 
-
 // let summa = 0;
 // for(i = 0; i< product.length; i++){
 //  summa += product[i].age;
@@ -1465,7 +1410,7 @@
 //         arr.push(i);
 //     }
 //     return arr ;
-// } 
+// }
 
 // let naber = nabbers(10);
 // console.log(naber);
@@ -1491,7 +1436,7 @@
 
 // function qiymat (n){
 //     let arr = [];
-//     let sum = 0; 
+//     let sum = 0;
 //     for(let i = 0; i<= n; i++){
 //         arr.push(i);
 //         sum+=i;
@@ -1530,7 +1475,7 @@
 
 // function yigindi (n){
 //     let arr = [];
-//     let sum = 0; 
+//     let sum = 0;
 //     for (let i = 0; i < n ; i++ ){
 //         arr[i]= +prompt(`${i} - indexs uchun ucun son kiriting`);
 //         sum += arr[i];
@@ -1575,13 +1520,9 @@
 // console.log(${a["ism"]} va ${c["ism"]}ning yosh farqi ${farqAc} yosh);
 // console.log(${b["ism"]} va ${c["ism"]}ning yosh farqi ${farqBc} yosh);
 
-
-
-
-
 //-----------------------------------------------------
 
-// 8- misol 
+// 8- misol
 
 // function naber(n) {
 //     let arr =[];
@@ -1596,7 +1537,7 @@
 //     }
 //     console.log(arr);
 //     console.log(sum);
-    
+
 // }
 
 // naber(6);
@@ -1616,7 +1557,7 @@
 //     }
 //     console.log(arr);
 //     console.log(`[${arr}] array ning juft indekislari ichida en kattasi ${j}-indeks`);
-    
+
 // }
 // naber(20);
 
@@ -1635,7 +1576,7 @@
 //     }
 //     console.log(arr);
 //     console.log(`[${arr}] array ning juft indekislari ichida en kichigi ${j}-indeks`);
-    
+
 // }
 // naber(5);
 
@@ -1665,7 +1606,7 @@
 //     {
 //         name : "Apelsin",
 //         price : 10000,
-       
+
 //     },
 //     {
 //         name : "Olma",
@@ -1700,15 +1641,39 @@
 
 // console.log(obj2);
 
-let x = 12300;
+// let x = 12300;
 
-let a = (x.toString().split("").reverse())
-console.log(a)
-for(let i = 0; i < a.length; i++){
-    if(a[i]==0){
-        a.push
-    }
+// let a = (x.toString().split("").reverse())
+// console.log(a)
+// for(let i = 0; i < a.length; i++){
+//     if(a[i]==0){
+//         a.push
+//     }
 
-    console.log(a);
-}
+//     console.log(a);
+// }
 
+// let n = 12
+
+// if(n > 1 && n < 10){
+//     console.log("birlik")
+// }else if(n > 10 && n < 100){
+//     console.log("o'nlik")
+// }else if(n > 100 && n < 1000){
+//     console.log("yuzlik")
+// }else{
+//     console.log("10000 dan katta")
+// }......
+
+// const students = [
+//   { name: "Quicky", percent: 96 },
+//   { name: "Jason", percent: 84 },
+//   { name: "Alexis", percent: 100 },
+//   { name: "Sam", percent: 65 },
+//   { name: "Katie", percent: 90 },
+//   { name: "Anna", percent: 75 },
+// ];
+
+// let arr = students.filter((el) => el.name.length > 5)
+
+// console.log(arr)
