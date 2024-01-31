@@ -757,3 +757,38 @@ let card = document.querySelectorAll("card");
 
 let element = document.querySelector("h1");
 element.style.color = "red";
+
+
+### Dynamicolly DOM monupulating
+- createElement(tegName);
+- appennd();
+- prepend();
+- after();
+- before();
+- createElement(tegName) -> bizga yangi html elament qurib beradi .
+- let div = document.createElement(div);
+
+// natija -> <div></div>
+1. appennd() -> yaratgan elamentimizni tanlab olgan elamentimiz ichiga joylashtirib beradi , joylashtirishda elamentimizni ohiridan joylashtiradi.
+let wrapper =document.querySelector('.wrapper');
+let card = document.createElement('div');
+
+2. wrapper.append(card);
+prepend() -> yaratgan elamentimizni tanlab olgan elamentimiz ichiga joylashtirib beradi , huddi 'appennd()' singari farqi bunda joylashtirishda elamentimiz boshidan joylashtiradi, ikkisini bir vaqitda ishlatilmaydi .
+let wrapper =document.querySelector('.wrapper');
+let card = document.createElement('div');
+
+3. wrapper.prepend(card);
+after() -> yaratgan elamentimizni tanlab olgan elamentimizni pasidan qo'shib beradi.
+ let wrapper=document.querySelector('.wrapper');
+ let card = document.createElement('div');
+
+ wrapper.after(card);
+4. before() -> yaratgan elamentimizni tanlab olgan elamentimizni yuqorisidan qo'shib beradi.
+
+```
+let wrapper =document.querySelector('.wrapper');
+let card = document.createElement('div');
+
+wrapper.before(card);
+```
